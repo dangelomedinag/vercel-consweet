@@ -1,5 +1,5 @@
 import {db} from "../firestore";
-// let products = []
+// let products = 
 module.exports = async (req, res) => {
 
 	// const collection = await db.collection("productos").get()
