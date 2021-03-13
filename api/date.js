@@ -11,5 +11,5 @@ module.exports = async (req, res) => {
 
 		
   const date = new Date().toString();
-  res.status(200).send({Date, message:"hello world"});
+  res.status(200).send({Date, message:"change from serverless-function branch"});
 };
