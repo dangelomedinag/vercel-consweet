@@ -1,15 +1,15 @@
 import {db} from "../firestore";
-let products = []
+// let products = 
 module.exports = async (req, res) => {
 
-	const collection = await db.collection("productos").get()
+	// const collection = await db.collection("productos").get()
 
 	
-	collection.forEach(it=>{
-		products.push(it.data())
-	})
+	// collection.forEach(it=>{
+	// 	products.push(it.data())
+	// })
 
 		
-  const date = new Date().toString();
-  res.status(200).send({date, products});
+  // const date = new Date().toString();
+  res.status(200).send({ "message": "main branch"});
 };
